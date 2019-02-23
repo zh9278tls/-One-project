@@ -1,0 +1,2143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font: 12px/1.5 "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  color: #333;
+  font: 12px;
+}
+li {
+  list-style: none;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+i,
+em {
+  font-style: normal;
+}
+.lazy-loading {
+  background: url(https://res.suning.cn/public/v3/css/images/blankbg.gif?v=2015102601) 50% 50% no-repeat;
+}
+.clear,
+.clearfix:after {
+  display: block;
+  height: 0;
+  clear: both;
+}
+.toolbar {
+  min-width: 1190px;
+  z-index: 7690;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  background: #f5f5f5;
+  line-height: 35px;
+  height: 35px;
+}
+.toolbar .toolbar-containt {
+  width: 1190px;
+  min-width: 1190px;
+  position: relative;
+  margin: 0 auto;
+}
+.toolbar .toolbar-containt .toolbar-left {
+  float: left;
+}
+.toolbar .toolbar-containt .toolbar-left a {
+  position: relative;
+  float: left;
+  padding: 0 10px;
+  overflow: hidden;
+  line-height: 35px;
+  height: 35px;
+  color: #666;
+}
+.toolbar .toolbar-containt .toolbar-left a i {
+  float: left;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 3px;
+  width: 16px;
+  height: 31px;
+  line-height: 31px;
+}
+.toolbar .toolbar-containt .toolbar-left a span {
+  float: left;
+  display: inline-block;
+  cursor: pointer;
+}
+.toolbar .toolbar-containt .toolbar-left a:hover {
+  color: #f60;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box {
+  position: relative;
+  float: left;
+  margin-left: -1px;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box div {
+  display: none;
+  position: absolute;
+  top: 35px;
+  border: 1px solid #ddd;
+  background: #ffffff;
+  border-top: none;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box .site-nav-child {
+  width: 988px;
+  padding: 20px 0;
+  left: auto;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box .site-nav-child dl {
+  float: left;
+  width: 176px;
+  border-right: 1px solid #eee;
+  padding-left: 20px;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box .site-nav-child dl dt {
+  height: 25px;
+  width: 100%;
+  font-size: 14px;
+  font-family: "Microsoft Yahei";
+  line-height: 17px;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box .site-nav-child dl dd {
+  width: 100%;
+  overflow: hidden;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box .site-nav-child dl p {
+  float: left;
+  height: 25px;
+  width: 78px;
+  line-height: 25px;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box .site-nav-child dl p a {
+  position: relative;
+  display: inline-block;
+  padding: 0;
+  float: left;
+  color: #666;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box .site-nav-child dl p:hover a {
+  color: #F60;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box .site-nav-child .ng-close {
+  position: absolute;
+  display: inline-block;
+  width: 35px;
+  right: 1px;
+  top: 1px;
+  -webkit-transition: transform 0.2s ease-in;
+  font-size: 30px;
+  cursor: pointer;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box .shop-center-child {
+  width: 162px;
+  padding-top: 5px;
+  left: 0;
+  right: auto;
+  padding-bottom: 5px;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box .service-center-child {
+  width: 162px;
+  padding-top: 5px;
+  left: auto;
+  right: 0;
+  padding-bottom: 5px;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box .service-center-child a {
+  padding: 0;
+  float: left;
+  height: 28px;
+  line-height: 28px;
+  display: block;
+  padding-left: 10px;
+  width: 71px;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box i {
+  display: inline-block;
+  font-size: 10px;
+  width: 10px;
+  color: #bbb;
+  margin-left: 3px;
+  padding-top: 3px;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box:hover {
+  border: 1px solid #ddd;
+  background: #ffffff;
+  border-bottom: none;
+}
+.toolbar .toolbar-containt .toolbar-left .bar-node-box:hover div {
+  display: block;
+}
+.toolbar .toolbar-containt .toolbar-right {
+  float: right;
+}
+.toolbar .toolbar-containt .toolbar-right > div {
+  position: relative;
+  float: left;
+  padding: 0 6px;
+  line-height: 35px;
+  height: 35px;
+}
+.toolbar .toolbar-containt .toolbar-right > div .ng-down-box1 {
+  display: none;
+  z-index: 7691;
+  width: 86px;
+  padding-bottom: 5px;
+  position: absolute;
+  top: 35px;
+  border: 1px solid #ddd;
+  background: #fff;
+  left: 0;
+}
+.toolbar .toolbar-containt .toolbar-right > div .ng-down-box1 a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  width: 71px;
+  float: left;
+  color: #666;
+}
+.toolbar .toolbar-containt .toolbar-right > div .ng-down-box2 {
+  display: none;
+  z-index: 7691;
+  width: 162px;
+  padding-bottom: 5px;
+  position: absolute;
+  top: 35px;
+  border: 1px solid #ddd;
+  background: #fff;
+  left: 0;
+}
+.toolbar .toolbar-containt .toolbar-right > div .ng-down-box2 div {
+  width: 142px;
+  height: 56px;
+  margin: 5px 10px;
+  overflow: hidden;
+}
+.toolbar .toolbar-containt .toolbar-right > div .ng-down-box2 div a:nth-child(1) {
+  display: block;
+  float: left;
+  width: 54px;
+  height: 54px;
+  border: 1px solid #f7f7f7;
+  padding: 0;
+}
+.toolbar .toolbar-containt .toolbar-right > div .ng-down-box2 div a:nth-child(1) img {
+  display: block;
+  width: 54px;
+  height: 54px;
+}
+.toolbar .toolbar-containt .toolbar-right > div .ng-down-box2 div a:nth-child(2) {
+  float: left;
+  height: 56px;
+  margin-left: 20px;
+  margin-top: 14px;
+  overflow: hidden;
+}
+.toolbar .toolbar-containt .toolbar-right > div .ng-down-box2 > a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  width: 71px;
+  float: left;
+  color: #666;
+}
+.toolbar .toolbar-containt .toolbar-right > div .ng-down-box4 {
+  display: none;
+  z-index: 7691;
+  right: 0;
+  left: auto;
+  width: 540px;
+  height: 220px;
+  overflow: hidden;
+  position: absolute;
+  top: 35px;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.toolbar .toolbar-containt .toolbar-right > div .ng-down-box4 ul li {
+  float: left;
+  width: 180px;
+  margin: 17px 0 0;
+}
+.toolbar .toolbar-containt .toolbar-right > div .ng-down-box4 ul li img {
+  display: block;
+  width: 147px;
+  height: 147px;
+  margin: 0 auto 10px;
+}
+.toolbar .toolbar-containt .toolbar-right > div .ng-down-box4 ul li p {
+  width: 180px;
+  height: 14px;
+  line-height: 14px;
+  overflow: hidden;
+  text-align: center;
+  color: #666;
+}
+.toolbar .toolbar-containt .toolbar-right > div a {
+  color: #666;
+}
+.toolbar .toolbar-containt .toolbar-right > div a:hover {
+  color: #f60;
+}
+.toolbar .toolbar-containt .toolbar-right > div .login {
+  color: #F60;
+  margin-left: 10px;
+}
+.toolbar .toolbar-containt .toolbar-right > div i {
+  display: inline-block;
+  font-size: 13px;
+  width: 10px;
+  color: #bbb;
+  margin-left: 3px;
+  margin-right: 10px;
+}
+.toolbar .toolbar-containt .toolbar-right .bar-node-box:hover {
+  border: 1px solid #ddd;
+  background: #ffffff;
+  border-bottom: none;
+}
+.toolbar .toolbar-containt .toolbar-right .bar-node-box:hover .ng-down-box {
+  border-top: none;
+  display: block;
+}
+.toolbar .toolbar-containt .toolbar-right .buy span {
+  color: #F60;
+}
+.toolbar .toolbar-containt .toolbar-right .buy i {
+  color: #F60;
+}
+.header {
+  width: 100%;
+  min-width: 1190px;
+  height: 110px;
+  background: #fff;
+  position: relative;
+}
+.header .header-containt {
+  width: 1190px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.header .header-containt .log-box {
+  position: relative;
+  height: 100px;
+  width: 400px;
+}
+.header .header-containt .log-box .logo {
+  float: left;
+  height: 90px;
+  width: 190px;
+  overflow: hidden;
+}
+.header .header-containt .log-box span {
+  float: left;
+  margin: 20px 0 0 10px;
+}
+.header .header-containt .search {
+  height: 100%;
+  left: 400px;
+  width: 550px;
+  position: absolute;
+  top: 0;
+}
+.header .header-containt .search .g-search {
+  display: inline;
+  position: relative;
+  float: right;
+  width: 550px;
+  margin: 30px 0 0 0;
+  z-index: 6790;
+  font-family: 'Microsoft YaHei';
+}
+.header .header-containt .search .g-search i {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 40px;
+  line-height: 40px;
+  text-align: right;
+  font-size: 14px;
+  color: #ccc;
+}
+.header .header-containt .search .g-search form div {
+  float: left;
+  width: 420px;
+  padding: 0 0 0 28px;
+  border: 2px solid #FA0;
+  border-right: none;
+  position: relative;
+}
+.header .header-containt .search .g-search form div input {
+  width: 410px;
+  padding: 9px 10px 9px 0;
+  height: 18px;
+  line-height: 18px;
+  margin-top: 0;
+  border: none;
+  background: #FFF;
+  color: #000000;
+  font-size: 12px;
+  font-family: 'MicroSoft YaHei';
+  -webkit-border-radius: 0;
+  float: left;
+  outline: 0;
+}
+.header .header-containt .search .g-search form button {
+  width: 100px;
+  height: 40px;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'MicroSoft YaHei';
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-indent: 2px;
+  color: #FFF;
+  border: 0;
+  cursor: pointer;
+  background: #FA0;
+  -webkit-border-radius: 0;
+  -webkit-appearance: none;
+  float: left;
+}
+.header .header-containt .search .g-search form .keyword {
+  float: left;
+  display: block;
+  color: #999;
+  width: 100%;
+  height: 18px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+.header .header-containt .search .g-search form .keyword a {
+  float: left;
+  white-space: nowrap;
+  font-size: 12px;
+  margin: 3px 0 3px -11px;
+  padding: 0 20px 0 10px;
+  border-left: 1px solid #ddd;
+  height: 12px;
+  line-height: 12px;
+  color: #999;
+}
+.header .header-containt .search .g-search form .keyword a:hover {
+  color: #F60;
+}
+.nav-bar {
+  min-width: 1190px;
+  border-bottom: 2px solid #333;
+  position: relative;
+  width: 100%;
+  height: 38px;
+  background: #fff;
+  overflow: visible;
+  margin-top: 0;
+}
+.nav-bar .sort {
+  margin-left: -595px;
+  position: absolute;
+  width: 190px;
+  top: 0;
+  left: 50%;
+}
+.nav-bar .sort .all {
+  display: block;
+  width: 163px;
+  line-height: 38px;
+  font-size: 13px;
+  left: 0;
+  top: 0;
+  background: #F90;
+  padding-left: 27px;
+  color: #FFF;
+  font-weight: 400;
+  text-decoration: none;
+}
+.nav-bar .sort .all i {
+  width: 12px;
+  height: 12px;
+  top: 14px;
+  left: 9px;
+  background: url(https://res.suning.cn/public/v3/css/images/newbg.png);
+  display: block;
+  position: absolute;
+}
+.nav-bar .sort .all span {
+  font-weight: 700;
+}
+.nav-bar .sort .sort-list-box {
+  display: none;
+  z-index: 66;
+  top: 38px;
+  height: 482px;
+  position: absolute;
+  left: 0;
+  width: 190px;
+}
+.nav-bar .sort .sort-list-box div {
+  top: 0;
+  background: #252221;
+  opacity: .9;
+  height: 482px;
+  position: absolute;
+  left: 0;
+  width: 190px;
+}
+.nav-bar .sort .sort-list-box ul {
+  position: absolute;
+  left: 0;
+  top: 1px;
+  height: 480px;
+  width: 190px;
+}
+.nav-bar .sort .sort-list-box ul li {
+  position: relative;
+  width: 175px;
+  height: 32px;
+  padding: 0 8px 0 10px;
+  line-height: 32px;
+}
+.nav-bar .sort .sort-list-box ul li a {
+  display: inline-block;
+  vertical-align: middle;
+  color: #FFF;
+  text-decoration: none;
+}
+.nav-bar .sort .sort-list-box ul li a:hover {
+  color: #F60;
+}
+.nav-bar .sort .sort-list-box ul li em {
+  display: inline-block;
+  vertical-align: middle;
+  height: 12px;
+  width: 1px;
+  opacity: .4;
+  background: #D8D8D8;
+  margin: 0 5px;
+}
+.nav-bar .sort:hover .sort-list-box {
+  display: block;
+}
+.nav-bar .nav-index {
+  width: 785px;
+  margin-left: -405px;
+  position: absolute;
+  left: 50%;
+  padding-left: 10px;
+  height: 38px;
+  line-height: 38px;
+  overflow: hidden;
+}
+.nav-bar .nav-index ul li {
+  float: left;
+  display: block;
+  position: relative;
+  height: 38px;
+  font-weight: 700;
+  padding: 0 12px 0 13px;
+}
+.nav-bar .nav-index ul li a {
+  position: relative;
+  float: left;
+  color: #333;
+  font-size: 15px;
+  text-decoration: none;
+}
+.nav-bar .nav-index ul li span {
+  position: absolute;
+  width: 25px;
+  height: 8px;
+  bottom: -8px;
+  left: 50%;
+  margin-left: -12px;
+  background: url(https://res.suning.cn/public/v3/css/images/newbg.png) -37px 0;
+  transition: all .5s;
+}
+.nav-bar .nav-index ul li:hover span {
+  bottom: 0;
+}
+.nav-bar .nav-index ul li:hover a {
+  color: #F60;
+}
+.frist-screen {
+  min-width: 1190px;
+  width: 100%;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+.frist-screen .banner-box .banner li {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 380px;
+}
+.frist-screen .banner-box .banner li a {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1920px;
+  height: 380px;
+  margin-left: -960px;
+}
+.frist-screen .banner-box .banner li a img {
+  display: block;
+  width: 1920px;
+  height: 380px;
+}
+.frist-screen .banner-box > a {
+  position: absolute;
+  z-index: 15;
+  top: 162px;
+  left: 50%;
+  width: 56px;
+  height: 56px;
+  background: url(https://res.suning.cn/project/cmsWeb/suning/fashion/css/images/fashion.png?v=93c77);
+}
+.frist-screen .banner-box .banner-arr {
+  display: none;
+}
+.frist-screen .banner-box .banner-prev {
+  margin-left: -395px;
+  background-position: 0 -40px;
+}
+.frist-screen .banner-box .banner-next {
+  margin-left: 539px;
+  background-position: -120px -40px;
+}
+.frist-screen .banner-box .tip-box {
+  position: absolute;
+  z-index: 10;
+  top: 354px;
+  left: 50%;
+  height: 16px;
+  margin-left: -35px;
+}
+.frist-screen .banner-box .tip-box ul {
+  float: left;
+  height: 10px;
+  padding: 3px 5px 3px 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.35);
+}
+.frist-screen .banner-box .tip-box ul li {
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  border-radius: 5px;
+  background: #222;
+  font-size: 0;
+}
+.frist-screen .banner-box .tip-box ul .current {
+  background: #cb2140;
+}
+.frist-screen .banner-box:hover .banner-arr {
+  display: block;
+}
+.frist-screen .category {
+  margin-left: -595px;
+  position: absolute;
+  z-index: 50;
+  left: 50%;
+  width: 190px;
+  height: 380px;
+}
+.frist-screen .category div {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  height: 380px;
+  overflow: hidden;
+}
+.frist-screen .category .column1 {
+  left: 0;
+  width: 80px;
+  background: #cb2140;
+}
+.frist-screen .category .column2 {
+  left: 80px;
+  width: 110px;
+  background: #e02444;
+}
+.frist-screen .category .category-item {
+  z-index: 2;
+  height: 34px;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+.frist-screen .category .category-item dt {
+  float: left;
+  width: 80px;
+  height: 34px;
+  font-size: 0;
+  overflow: hidden;
+}
+.frist-screen .category .category-item dt i {
+  position: absolute;
+  top: 7px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  background: url(https://res.suning.cn/project/cmsWeb/suning/fashion/css/images/fashion.png);
+}
+.frist-screen .category .category-item dt .icon0 {
+  background-position: 0 0;
+}
+.frist-screen .category .category-item dt .icon1 {
+  background-position: -20px 0;
+}
+.frist-screen .category .category-item dt .icon2 {
+  background-position: -40px 0;
+}
+.frist-screen .category .category-item dt .icon3 {
+  background-position: -60px 0;
+}
+.frist-screen .category .category-item dt .icon4 {
+  background-position: -80px 0;
+}
+.frist-screen .category .category-item dt .icon5 {
+  background-position: -100px 0;
+}
+.frist-screen .category .category-item dt .icon6 {
+  background-position: -120px 0;
+}
+.frist-screen .category .category-item dt .icon7 {
+  background-position: -140px 0;
+}
+.frist-screen .category .category-item dt .icon8 {
+  background-position: -160px 0;
+}
+.frist-screen .category .category-item dt .icon9 {
+  background-position: -180px 0;
+}
+.frist-screen .category .category-item dt .icon10 {
+  background-position: -200px 0;
+}
+.frist-screen .category .category-item dt a {
+  margin-left: 36px;
+  font-size: 14px;
+  line-height: 34px;
+  color: #fff;
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+.frist-screen .category .category-item dd {
+  float: left;
+  width: 110px;
+  height: 34px;
+  overflow: hidden;
+}
+.frist-screen .category .category-item dd a {
+  margin-left: 9px;
+  line-height: 34px;
+  color: #fff;
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+.frist-screen .category .category-item dd i {
+  display: none;
+  float: right;
+  width: 5px;
+  height: 10px;
+  margin: 14px 10px 0 0;
+  background: url(https://res.suning.cn/project/cmsWeb/suning/fashion/css/images/fashion.png) -180px -161px no-repeat;
+}
+.frist-screen .category .category-item-on {
+  width: 191px;
+  height: 34px;
+  overflow: hidden;
+  transform: scale(1, 1);
+  transform: translate3d(0, 0, 0);
+  background: #fff;
+  color: #333;
+}
+.frist-screen .category .category-item-on a {
+  color: #333;
+}
+.frist-screen .category .category-item-on dt {
+  background: #eee;
+}
+.frist-screen .category .category-item-on dt a {
+  color: #333;
+}
+.frist-screen .category .category-item-on dt .icon0 {
+  background-position: 0 -20px;
+}
+.frist-screen .category .category-item-on dt .icon1 {
+  background-position: -20px -20px;
+}
+.frist-screen .category .category-item-on dt .icon2 {
+  background-position: -40px -20px;
+}
+.frist-screen .category .category-item-on dt .icon3 {
+  background-position: -60px -20px;
+}
+.frist-screen .category .category-item-on dt .icon4 {
+  background-position: -80px -20px;
+}
+.frist-screen .category .category-item-on dt .icon5 {
+  background-position: -100px -20px;
+}
+.frist-screen .category .category-item-on dt .icon6 {
+  background-position: -120px -20px;
+}
+.frist-screen .category .category-item-on dt .icon7 {
+  background-position: -140px -20px;
+}
+.frist-screen .category .category-item-on dt .icon8 {
+  background-position: -160px -20px;
+}
+.frist-screen .category .category-item-on dt .icon9 {
+  background-position: -180px -20px;
+}
+.frist-screen .category .category-item-on dt .icon10 {
+  background-position: -200px -20px;
+}
+.frist-screen .category .category-item-on dd a {
+  color: #333;
+}
+.frist-screen .category .category-open {
+  position: absolute;
+  top: 0;
+  left: 190px;
+  width: 378px;
+  height: 378px;
+  border: 1px solid #ddd;
+  background: #fff;
+  transform: translate3d(0, 0, 0);
+}
+.frist-screen .category .category-open a:hover {
+  color: #F60;
+}
+.frist-screen .category .category-open p {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  height: 26px;
+  padding-right: 15px;
+  line-height: 34px;
+  overflow: hidden;
+}
+.frist-screen .category .category-open p a {
+  display: block;
+  margin-left: 139px;
+  width: 100px;
+  height: 24px;
+  border: 1px solid #333;
+  line-height: 24px;
+  text-align: center;
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+.frist-screen .category .category-open p a i {
+  line-height: 24px;
+  text-align: center;
+}
+.frist-screen .category .category-open ul {
+  margin: 34px 9px 0;
+}
+.frist-screen .category .category-open ul li {
+  position: relative;
+  float: left;
+  margin-bottom: 37px;
+}
+.frist-screen .category .category-open ul li a img {
+  display: block;
+  width: 120px;
+  height: 40px;
+}
+.frist-screen .category .category-open span {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  font: 28px/20px arial;
+  cursor: default;
+}
+.frist-screen .category .category-open dl {
+  color: #333;
+  width: 340px;
+  margin-bottom: 6px;
+  margin-left: 19px;
+  padding-top: 18px;
+}
+.frist-screen .category .category-open dl a {
+  color: #333;
+}
+.frist-screen .category .category-open dl dt {
+  height: 18px;
+  overflow: hidden;
+}
+.frist-screen .category .category-open dl dt a {
+  font-weight: bold;
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+.frist-screen .category .category-open dl dd {
+  padding-top: 1px;
+  font-size: 0;
+}
+.frist-screen .category .category-open dl dd a {
+  display: inline-block;
+  margin-top: 6px;
+  margin-right: 18px;
+  font-size: 12px;
+  white-space: nowrap;
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+.main {
+  width: 100%;
+  padding-top: 27px;
+}
+.main .wrapper {
+  width: 1190px;
+  min-width: 1190px;
+  margin: 0 auto;
+  clear: both;
+}
+.main .wrapper .common-head {
+  position: relative;
+  height: 48px;
+  overflow: hidden;
+}
+.main .wrapper .common-head i {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 3px;
+  height: 37px;
+  background: #e02444;
+  overflow: hidden;
+}
+.main .wrapper .common-head h3 {
+  height: 36px;
+  margin-left: 14px;
+  overflow: hidden;
+}
+.main .wrapper .common-head h3 strong {
+  float: left;
+  font: bold 24px/1.5 "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+.main .wrapper .common-head h3 em {
+  float: left;
+  padding-left: 12px;
+  color: #bbb;
+  font: 30px/36px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+.main .wrapper .common-head p {
+  height: 18px;
+  margin-top: -6px;
+  margin-left: 14px;
+  color: #bfbfbf;
+  font-size: 10px;
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  overflow: hidden;
+}
+.main .wrapper .common-head .more {
+  position: absolute;
+  top: 22px;
+  right: 0;
+  height: 23px;
+  padding: 0 8px;
+  border: solid 1px #333;
+  line-height: 23px;
+  color: #333;
+  font-family: \5b8b\4f53;
+}
+.main .wrapper .common-head .more:hover {
+  color: #F60;
+  border-color: #F60;
+}
+.main .wrapper .brand-sale-main {
+  height: 360px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+.main .wrapper .brand-sale-main .brand-big {
+  position: relative;
+  float: left;
+  width: 388px;
+  height: 358px;
+  border: 1px solid #eee;
+  overflow: hidden;
+  transition: all .5s;
+}
+.main .wrapper .brand-sale-main .brand-big .title {
+  position: absolute;
+  z-index: 3;
+  left: 21px;
+  width: 129px;
+  height: 130px;
+}
+.main .wrapper .brand-sale-main .brand-big .title .today {
+  width: 129px;
+  height: 60px;
+  background: url(https://res.suning.cn/project/cmsWeb/suning/fashion/css/images/fashion.png?v=93c77) -120px -100px;
+}
+.main .wrapper .brand-sale-main .brand-big .title .discount {
+  width: 129px;
+  height: 60px;
+  padding-top: 10px;
+  background: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+.main .wrapper .brand-sale-main .brand-big .title .discount h5 {
+  height: 27px;
+  font: bold 18px/1.5 "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  overflow: hidden;
+}
+.main .wrapper .brand-sale-main .brand-big .title .discount p {
+  height: 21px;
+  margin-top: -2px;
+  color: #999;
+  font: 14px/1.5 "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  overflow: hidden;
+}
+.main .wrapper .brand-sale-main .brand-big .big img {
+  display: block;
+  position: relative;
+  z-index: 2;
+  width: 390px;
+  height: 270px;
+  margin: -1px -1px 0;
+}
+.main .wrapper .brand-sale-main .brand-big .brand-detail {
+  position: relative;
+  height: 88px;
+  overflow: hidden;
+}
+.main .wrapper .brand-sale-main .brand-big .brand-detail a img {
+  float: left;
+  width: 90px;
+  height: 30px;
+  margin: 27px 0 0 26px;
+}
+.main .wrapper .brand-sale-main .brand-big .brand-detail span {
+  position: absolute;
+  top: 18px;
+  left: 133px;
+  font-size: 0;
+}
+.main .wrapper .brand-sale-main .brand-big .brand-detail span i {
+  position: absolute;
+  width: 1px;
+  height: 52px;
+  background: #222;
+}
+.main .wrapper .brand-sale-main .brand-big .brand-detail span b {
+  position: absolute;
+  top: 20px;
+  left: 1px;
+  width: 0;
+  height: 0;
+  border: 4px solid #fff;
+  border-left-color: #222;
+  font-weight: bold;
+}
+.main .wrapper .brand-sale-main .brand-big .brand-detail p {
+  float: left;
+  width: 218px;
+  height: 58px;
+  margin-top: 14px;
+  margin-left: 38px;
+  color: #666;
+  font: 12px/20px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  overflow: hidden;
+}
+.main .wrapper .brand-sale-main .brand-big:hover {
+  border: 1px solid #000;
+}
+.main .wrapper .brand-sale-main ul {
+  width: 810px;
+  float: left;
+  height: 360px;
+  margin-right: -20px;
+  overflow: hidden;
+}
+.main .wrapper .brand-sale-main ul li {
+  width: 388px;
+  position: relative;
+  float: left;
+  height: 173px;
+  margin: 0 0 10px 10px;
+  border: 1px solid #eee;
+  overflow: hidden;
+  transition: all .5s;
+}
+.main .wrapper .brand-sale-main ul li a {
+  width: 388px;
+  display: block;
+  height: 173px;
+  background: #fff;
+}
+.main .wrapper .brand-sale-main ul li a i {
+  position: absolute;
+  z-index: 3;
+  left: 189px;
+  top: 78px;
+  width: 0;
+  height: 0;
+  border: 7px solid transparent;
+  border-left-color: #fff;
+  font-size: 0;
+}
+.main .wrapper .brand-sale-main ul li a div {
+  width: 189px;
+  position: relative;
+  z-index: 2;
+  float: left;
+  height: 173px;
+  background: #fff;
+  overflow: hidden;
+}
+.main .wrapper .brand-sale-main ul li a div img {
+  display: block;
+  width: 90px;
+  height: 30px;
+  margin: 49px auto 0;
+}
+.main .wrapper .brand-sale-main ul li a div p {
+  clear: both;
+  height: 36px;
+  color: #333;
+  font: bold 18px/36px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  text-align: center;
+  overflow: hidden;
+}
+.main .wrapper .brand-sale-main ul li a div span {
+  display: block;
+  width: 80px;
+  height: 24px;
+  margin: 7px auto 0;
+  background: #111;
+  color: #fff;
+  font: 14px/24px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  text-align: center;
+  overflow: hidden;
+}
+.main .wrapper .brand-sale-main ul li a .brand-img {
+  right: -1px;
+  position: absolute;
+  z-index: 1;
+  top: -1px;
+}
+.main .wrapper .brand-sale-main ul a:hover .btn {
+  background: #e02444;
+}
+.main .wrapper .brand-sale-main ul li:hover {
+  border: 1px solid #000;
+}
+.main .today-new {
+  margin-top: 34px;
+  overflow: hidden;
+}
+.main .today-new .today-new-main {
+  height: 360px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+.main .today-new .today-new-main ul {
+  width: 1210px;
+  /*li:hover a{
+                    top:0px;
+                    left:0px;
+                    transition: all .5s;
+                }*/
+}
+.main .today-new .today-new-main ul li {
+  width: 228px;
+  position: relative;
+  float: left;
+  height: 358px;
+  margin-right: 10px;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+.main .today-new .today-new-main ul li .lit-img {
+  margin: -1px -1px 0;
+  display: block;
+  width: 230px;
+  height: 360px;
+}
+.main .today-new .today-new-main ul li div {
+  width: 180px;
+  margin-left: -90px;
+  position: absolute;
+  z-index: 2;
+  top: 278px;
+  left: 50%;
+  height: 60px;
+  background: #fff;
+}
+.main .today-new .today-new-main ul li div img {
+  display: block;
+  width: 90px;
+  height: 30px;
+  margin: 14px auto 0;
+}
+.main .today-new .today-new-main ul li a {
+  left: 0px;
+  top: 360px;
+  width: 230px;
+  position: absolute;
+  z-index: 3;
+  height: 360px;
+  background: url(https://res.suning.cn/project/cmsWeb/suning/fashion/css/images/new-bg.png?v=d5694) repeat;
+  text-align: center;
+  color: #fff;
+}
+.main .today-new .today-new-main ul li a .title {
+  height: 20px;
+  margin: 156px 10px 2px;
+  font: 14px/1.5 "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  overflow: hidden;
+}
+.main .today-new .today-new-main ul li a .info {
+  height: 20px;
+  margin: 0 10px 2px;
+  font: 14px/1.5 "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  overflow: hidden;
+}
+.main .collocation {
+  margin-top: 36px;
+}
+.main .collocation .collocation-head {
+  position: relative;
+  height: 53px;
+  border-bottom: 2px solid #222;
+}
+.main .collocation .collocation-head ul {
+  position: absolute;
+  top: 19px;
+  right: 0;
+  float: right;
+}
+.main .collocation .collocation-head li {
+  float: left;
+  height: 34px;
+  padding-top: 2px;
+}
+.main .collocation .collocation-head li a {
+  padding: 0 18px;
+  position: relative;
+  float: left;
+  height: 32px;
+  background: #fff;
+  color: #666;
+  font: 14px/34px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  text-align: center;
+  overflow: hidden;
+}
+.main .collocation .collocation-head li.on {
+  height: 32px;
+  padding-top: 0;
+  border: 2px solid #222;
+}
+.main .collocation .collocation-head li.on a {
+  padding: 0 16px;
+  height: 34px;
+  margin-bottom: -2px;
+  color: #333;
+  font-weight: bold;
+}
+.main .collocation .collocation-main {
+  position: relative;
+  height: 380px;
+  overflow: hidden;
+}
+.main .collocation .collocation-main .collocation-arr {
+  position: absolute;
+  z-index: 20;
+  top: 160px;
+  width: 56px;
+  height: 56px;
+  background: url(https://res.suning.cn/project/cmsWeb/suning/fashion/css/images/fashion.png?v=93c77);
+}
+.main .collocation .collocation-main .collocation-prev {
+  left: 10px;
+  background-position: 0 -40px;
+}
+.main .collocation .collocation-main .collocation-next {
+  right: 10px;
+  background-position: -120px -40px;
+}
+.main .collocation .collocation-main .collocation-item {
+  display: none;
+  position: absolute;
+  left: 0;
+  width: 1190px;
+  height: 380px;
+  overflow: hidden;
+  transition: all .5s;
+}
+.main .collocation .collocation-main .collocation-item a img {
+  opacity: 1;
+  float: left;
+  width: 230px;
+  height: 380px;
+}
+.main .collocation .collocation-main .collocation-item a:hover img {
+  opacity: 0.7;
+}
+.main .collocation .collocation-main .collocation-item .info {
+  position: absolute;
+  z-index: 3;
+  left: 270px;
+  top: 40px;
+  width: 220px;
+  height: 185px;
+  overflow: hidden;
+}
+.main .collocation .collocation-main .collocation-item .info .title {
+  width: 175px;
+  height: 71px;
+  background: url(https://res.suning.cn/project/cmsWeb/suning/fashion/css/images/fashion.png?v=93c77) 0 -321px;
+}
+.main .collocation .collocation-main .collocation-item .info h5 {
+  height: 27px;
+  margin-top: 5px;
+  font: bold 18px/1.5 "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  overflow: hidden;
+}
+.main .collocation .collocation-main .collocation-item .info p {
+  height: 70px;
+  margin-top: 11px;
+  color: #666;
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  overflow: hidden;
+}
+.main .collocation .collocation-main .collocation-item ul {
+  position: relative;
+  float: left;
+  width: 920px;
+  height: 380px;
+  margin-top: 10px;
+  margin-left: 37px;
+  overflow: hidden;
+}
+.main .collocation .collocation-main .collocation-item ul li {
+  overflow: hidden;
+  position: absolute;
+}
+.main .collocation .collocation-main .collocation-item ul li b {
+  position: absolute;
+  z-index: 20;
+  width: 16px;
+  height: 16px;
+  background: url(https://res.suning.cn/project/cmsWeb/suning/fashion/css/images/fashion.png?v=93c77) -120px -161px;
+}
+.main .collocation .collocation-main .collocation-item ul li img {
+  position: absolute;
+  z-index: 5;
+  opacity: 1;
+}
+.main .collocation .collocation-main .collocation-item ul li .detail {
+  position: absolute;
+  z-index: 10;
+}
+.main .collocation .collocation-main .collocation-item ul li .detail .num {
+  font: 36px/1.5 impact;
+}
+.main .collocation .collocation-main .collocation-item ul li .detail .fashion-price {
+  margin-left: 3px;
+  margin-top: -10px;
+  font-size: 0;
+  font-weight: bold;
+}
+.main .collocation .collocation-main .collocation-item ul li .detail .fashion-price i {
+  margin-right: 2px;
+  font-size: 16px;
+}
+.main .collocation .collocation-main .collocation-item ul li .detail .fashion-price span {
+  font-size: 18px;
+}
+.main .collocation .collocation-main .collocation-item ul li .detail .fashion-price em {
+  position: relative;
+  top: 1px;
+  font-size: 14px;
+  font-family: iconfont;
+  vertical-align: top;
+}
+.main .collocation .collocation-main .collocation-item ul li .detail .name {
+  height: 18px;
+  margin-left: 3px;
+  margin-top: -6px;
+  overflow: hidden;
+}
+.main .collocation .collocation-main .collocation-item ul li .detail .name a {
+  color: #999;
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+.main .collocation .collocation-main .collocation-item ul li:hover img {
+  opacity: 0.7;
+}
+.main .collocation .collocation-main .collocation-item ul .item1 {
+  left: 237px;
+  width: 315px;
+  height: 190px;
+}
+.main .collocation .collocation-main .collocation-item ul .item1 b {
+  left: 128px;
+  top: 111px;
+}
+.main .collocation .collocation-main .collocation-item ul .item1 a img {
+  width: 180px;
+  height: 190px;
+}
+.main .collocation .collocation-main .collocation-item ul .item1 .detail {
+  left: 156px;
+  top: 70px;
+}
+.main .collocation .collocation-main .collocation-item ul .item2 {
+  top: 225px;
+  width: 280px;
+  height: 145px;
+}
+.main .collocation .collocation-main .collocation-item ul .item2 b {
+  left: 105px;
+  top: 31px;
+}
+.main .collocation .collocation-main .collocation-item ul .item2 a img {
+  width: 180px;
+  height: 145px;
+}
+.main .collocation .collocation-main .collocation-item ul .item2 .detail {
+  left: 131px;
+  top: -3px;
+}
+.main .collocation .collocation-main .collocation-item ul .item3 {
+  top: 200px;
+  left: 285px;
+  width: 265px;
+  height: 170px;
+}
+.main .collocation .collocation-main .collocation-item ul .item3 b {
+  left: 114px;
+  top: 78px;
+}
+.main .collocation .collocation-main .collocation-item ul .item3 a img {
+  width: 140px;
+  height: 170px;
+}
+.main .collocation .collocation-main .collocation-item ul .item3 .detail {
+  left: 138px;
+  top: 37px;
+}
+.main .collocation .collocation-main .collocation-item ul .item4 {
+  left: 560px;
+  width: 165px;
+  height: 370px;
+}
+.main .collocation .collocation-main .collocation-item ul .item4 b {
+  left: 35px;
+  top: 111px;
+}
+.main .collocation .collocation-main .collocation-item ul .item4 a img {
+  bottom: 0;
+  width: 150px;
+  height: 260px;
+}
+.main .collocation .collocation-main .collocation-item ul .item4 .detail {
+  left: 12px;
+  top: 28px;
+}
+.main .collocation .collocation-main .collocation-item ul .item5 {
+  display: block;
+  left: 713px;
+  width: 200px;
+  height: 370px;
+}
+.main .collocation .collocation-main .collocation-item ul .item5 b {
+  left: 98px;
+  top: 164px;
+}
+.main .collocation .collocation-main .collocation-item ul .item5 a img {
+  right: 0;
+  width: 150px;
+  height: 370px;
+}
+.main .collocation .collocation-main .collocation-item ul .item5 .detail {
+  top: 112px;
+  width: 96px;
+  text-align: right;
+}
+.main .floor-link-box {
+  height: 40px;
+  line-height: 40px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+.main .floor-link-box .floor-link {
+  left: auto;
+  display: table;
+  width: 1190px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  height: 40px;
+}
+.main .floor-link-box .floor-link tr td {
+  display: inline-block;
+  width: 198px;
+  color: #fff;
+  font-size: 0;
+  text-align: center;
+  vertical-align: middle;
+  background: #111111;
+  cursor: pointer;
+}
+.main .floor-link-box .floor-link tr td i {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  background: url(https://res.suning.cn/project/cmsWeb/suning/fashion/css/images/fashion.png?v=93c77);
+  vertical-align: middle;
+}
+.main .floor-link-box .floor-link tr td b {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+.main .floor-link-box .floor-link tr .item1 i {
+  background-position: 0px -173px;
+}
+.main .floor-link-box .floor-link tr .item2 i {
+  background-position: -20px -173px;
+}
+.main .floor-link-box .floor-link tr .item3 i {
+  background-position: -40px -173px;
+}
+.main .floor-link-box .floor-link tr .item4 i {
+  background-position: -60px -173px;
+}
+.main .floor-link-box .floor-link tr .item5 i {
+  background-position: -80px -173px;
+}
+.main .floor-link-box .floor-link tr .item6 i {
+  background-position: -100px -173px;
+}
+.main .floor-link-box .floor-link-box .floor-link-fixed {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.main .fixed {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.main .floor {
+  overflow: hidden;
+  margin-top: 40px;
+}
+.main .floor .main-wrap {
+  height: 540px;
+}
+.main .floor .main-wrap .floor-side {
+  width: 228px;
+  height: 528px;
+  position: relative;
+  float: left;
+  border: 1px solid #eee;
+  overflow: hidden;
+}
+.main .floor .main-wrap .floor-side .floor-name {
+  position: relative;
+  height: 80px;
+  margin-top: 21px;
+  margin-left: 19px;
+  overflow: hidden;
+}
+.main .floor .main-wrap .floor-side .floor-name i {
+  position: absolute;
+  top: 9px;
+  width: 3px;
+  height: 68px;
+  overflow: hidden;
+}
+.main .floor .main-wrap .floor-side .floor-name h3 {
+  padding-left: 11px;
+  font: 36px/52px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  overflow: hidden;
+}
+.main .floor .main-wrap .floor-side .floor-name h4 {
+  margin-top: -2px;
+  padding-left: 11px;
+  font: 26px/32px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  letter-spacing: -2px;
+  overflow: hidden;
+}
+.main .floor .main-wrap .floor-side .links {
+  position: relative;
+  width: 185px;
+  height: 40px;
+  margin-top: 14px;
+  margin-left: 19px;
+  font-size: 0;
+  overflow: hidden;
+}
+.main .floor .main-wrap .floor-side .links span {
+  display: inline-block;
+  height: 18px;
+  margin-bottom: 6px;
+  margin-left: -10px;
+  padding-right: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.main .floor .main-wrap .floor-side .links span i {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  height: 11px;
+  margin-right: 10px;
+  border-left: 1px solid #e2e2e2;
+  font-size: 0;
+}
+.main .floor .main-wrap .floor-side .links span a {
+  color: #666;
+  font-size: 12px;
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+.main .floor .main-wrap .floor-side .big-img img {
+  display: block;
+  width: 210px;
+  height: 340px;
+  margin: 22px auto 0;
+}
+.main .floor .main-wrap .floor-side .big-img img:hover {
+  opacity: 0.7;
+}
+.main .floor .main-wrap .floor-main {
+  width: 950px;
+  height: 530px;
+  overflow: hidden;
+  position: relative;
+  float: right;
+}
+.main .floor .main-wrap .floor-main ul li {
+  border: 1px solid #eee;
+  overflow: hidden;
+  transition: all .5s;
+}
+.main .floor .main-wrap .floor-main ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  cursor: pointer;
+}
+.main .floor .main-wrap .floor-main ul li a img {
+  position: relative;
+}
+.main .floor .main-wrap .floor-main ul li a .info {
+  padding-left: 18px;
+  overflow: hidden;
+}
+.main .floor .main-wrap .floor-main ul li a .info .name {
+  height: 22px;
+  line-height: 24px;
+  color: #666;
+  font-family: "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  overflow: hidden;
+}
+.main .floor .main-wrap .floor-main .top-list {
+  width: 980px;
+  height: 350px;
+  overflow: hidden;
+}
+.main .floor .main-wrap .floor-main .top-list li {
+  position: relative;
+  float: left;
+  width: 228px;
+  height: 348px;
+  margin-right: 9px;
+  padding: 0;
+}
+.main .floor .main-wrap .floor-main .top-list li a img {
+  display: block;
+  width: 230px;
+  height: 310px;
+  margin: -1px -1px 8px;
+}
+.main .floor .main-wrap .floor-main .top-list li a .info .name {
+  float: left;
+  width: 130px;
+}
+.main .floor .main-wrap .floor-main .top-list li:hover {
+  opacity: 0.7;
+}
+.main .floor .main-wrap .floor-main .bottom-list {
+  width: 980px;
+  height: 170px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.main .floor .main-wrap .floor-main .bottom-list li {
+  padding: 0;
+  position: relative;
+  float: left;
+  width: 228px;
+  height: 168px;
+  margin-right: 10px;
+}
+.main .floor .main-wrap .floor-main .bottom-list li img {
+  position: relative;
+  display: block;
+  width: 230px;
+  height: 140px;
+  margin: -1px -1px 0;
+}
+.main .floor .main-wrap .floor-main .bottom-list li .info .name {
+  float: left;
+  width: 130px;
+}
+.main .floor .main-wrap .floor-main .bottom-list li .info .price {
+  font-size: 0;
+  font-weight: bold;
+  color: #333;
+}
+.main .floor .main-wrap .floor-main .bottom-list li .info .price i {
+  margin-right: 2px;
+  font-size: 16px;
+}
+.main .floor .main-wrap .floor-main .bottom-list li .info .price span {
+  font-size: 18px;
+  font-family: iconfont;
+}
+.main .floor .main-wrap .floor-main .bottom-list li .info .price em {
+  position: relative;
+  top: 1px;
+  font-size: 14px;
+  font-family: iconfont;
+  vertical-align: top;
+}
+.main .floor .main-wrap .floor-main .bottom-list li:hover {
+  border: #111 solid 1px;
+}
+.main .floor .main-wrap .floor-main .bottom-list li:hover img {
+  transform: translateX(-10px);
+  transition-duration: .5s;
+}
+.main .floor .floor-brand {
+  height: 60px;
+  overflow: hidden;
+}
+.main .floor .floor-brand ul {
+  position: relative;
+  height: 58px;
+  border: 1px solid #e5e5e5;
+  background: #f5f5f5;
+  overflow: hidden;
+}
+.main .floor .floor-brand ul li:nth-child(1) {
+  border-left: 0 none;
+}
+.main .floor .floor-brand ul li {
+  width: 147px;
+  height: 58px;
+  border-left: 1px solid #e5e5e5;
+  float: left;
+  overflow: hidden;
+}
+.main .floor .floor-brand ul li a {
+  display: block;
+  width: 100%;
+  height: 44px;
+  padding-top: 14px;
+  background: #f5f5f5;
+}
+.main .floor .floor-brand ul li a img {
+  display: block;
+  position: relative;
+  width: 90px;
+  height: 30px;
+  margin: 0 auto;
+}
+.main .floor .floor-brand ul li:hover {
+  opacity: 0.7;
+}
+.main .floor01 {
+  margin-top: 8px;
+}
+.main .floor-type {
+  height: 290px;
+  margin-top: 36px;
+  margin-bottom: 48px;
+  overflow: hidden;
+}
+.main .floor-type .type-head {
+  position: relative;
+  height: 28px;
+  overflow: hidden;
+}
+.main .floor-type .type-head .line {
+  width: 1190px;
+  position: absolute;
+  top: 15px;
+  height: 9px;
+  background: url(https://res.suning.cn/project/cmsWeb/suning/fashion/css/images/fashion.png?v=93c77) 0 -196px repeat-x;
+  overflow: hidden;
+}
+.main .floor-type .type-head h3 {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  width: 100px;
+  height: 28px;
+  margin-left: -50px;
+  background: #fff;
+  font: bold 18px/28px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  text-align: center;
+  overflow: hidden;
+}
+.main .floor-type .type-main {
+  width: 1250px;
+  height: 264px;
+  padding-left: 8px;
+  overflow: hidden;
+}
+.main .floor-type .type-main dl {
+  width: 150px;
+  float: left;
+  height: 248px;
+  padding-top: 16px;
+  overflow: hidden;
+}
+.main .floor-type .type-main dl dt a {
+  display: block;
+  width: 114px;
+  height: 100px;
+  padding-top: 14px;
+  background: url(https://res.suning.cn/project/cmsWeb/suning/fashion/css/images/fashion.png?v=93c77) 0 -206px;
+  color: #666;
+  font: bold 14px/1.5 "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  text-align: center;
+}
+.main .floor-type .type-main dl dt a img {
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 6px;
+}
+.main .floor-type .type-main dl dt a:hover {
+  color: #666;
+  -webkit-animation: shake-vertical 1s ease-in-out;
+  animation: shake-vertical 1s ease-in-out;
+}
+.main .floor-type .type-main dl dd {
+  height: 120px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.main .floor-type .type-main dl dd a {
+  float: left;
+  width: 60px;
+  height: 30px;
+  padding-left: 5px;
+  color: #666;
+  font: 12px/30px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+.main .floor-type .type-main dl dd a:hover {
+  color: #F60;
+}
+.footer {
+  margin-top: 10px;
+  background: #f2f2f2;
+}
+.footer .ser-box {
+  width: 100%;
+  background: #f5f5f5;
+  border-top: 1px solid #e7e7e7;
+  min-width: 1190px;
+}
+.footer .ser-box .ser-box-con {
+  width: 1190px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.footer .ser-box .ser-box-con .promise {
+  width: 1250px;
+  padding: 12px 0;
+  height: 73px;
+  border-bottom: 1px solid #eaeaea;
+}
+.footer .ser-box .ser-box-con .promise dl {
+  float: left;
+  width: 250px;
+  overflow: hidden;
+}
+.footer .ser-box .ser-box-con .promise dl dt {
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+.footer .ser-box .ser-box-con .promise dl dt a img {
+  display: block;
+  width: 48px;
+  height: 48px;
+}
+.footer .ser-box .ser-box-con .promise dl dd {
+  float: left;
+  height: 48px;
+  width: 180px;
+}
+.footer .ser-box .ser-box-con .promise dl dd p {
+  line-height: 24px;
+  width: 100%;
+  color: #545454;
+}
+.footer .ser-box .ser-box-con .promise dl dd p strong {
+  font-weight: 700;
+  color: #222;
+  font-size: 14px;
+}
+.footer .ser-box .ser-box-con .promise dl dd p strong a {
+  color: #333;
+}
+.footer .ser-box .ser-box-con .promise dl dd p strong a:hover {
+  color: #F60;
+}
+.footer .ser-box .ser-box-con .help-box {
+  float: left;
+  width: 1050px;
+  height: 180px;
+}
+.footer .ser-box .ser-box-con .help-box dl {
+  float: left;
+  height: 160px;
+  width: 210px;
+}
+.footer .ser-box .ser-box-con .help-box dl dt {
+  width: 100%;
+  line-height: 40px;
+  font-weight: 700;
+  color: #545454;
+  height: 35px;
+  font-size: 14px;
+  overflow: hidden;
+}
+.footer .ser-box .ser-box-con .help-box dl dd {
+  width: 100%;
+  line-height: 22px;
+  font-size: 12px;
+}
+.footer .ser-box .ser-box-con .help-box dl dd a {
+  color: #545454;
+}
+.footer .ser-box .ser-box-con .help-box dl dd a:hover {
+  color: #f60;
+}
+.footer .ser-box .ser-box-con .app-down {
+  float: left;
+  height: 180px;
+  width: 90px;
+}
+.footer .ser-box .ser-box-con .app-down p {
+  width: 100%;
+  line-height: 40px;
+  font-weight: 700;
+  color: #545454;
+  height: 35px;
+  font-size: 14px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.footer .ser-box .ser-box-con .app-down a {
+  color: #333;
+}
+.footer .ser-box .ser-box-con .app-down a:hover {
+  color: #F60;
+}
+.footer .bt-footer {
+  background: #fff;
+  width: 100%;
+  min-width: 990px;
+  height: 185px;
+  padding-top: 15px;
+  text-align: center;
+  font-family: "Microsoft yahei";
+  font-size: 12px;
+}
+.footer .bt-footer .bt-container {
+  height: 185px;
+  width: 990px;
+  min-width: 990px;
+  margin: 0 auto;
+}
+.footer .bt-footer .bt-container p {
+  line-height: 25px;
+  height: 25px;
+  margin-top: 0;
+}
+.footer .bt-footer .bt-container p a {
+  color: #666;
+}
+.footer .bt-footer .bt-container p span {
+  color: #888;
+  padding: 0 8px;
+}
+.footer .bt-footer .bt-container .bt-copyright {
+  color: #999;
+}
+.footer .bt-footer .bt-container .bt-copyright a {
+  color: #999;
+  margin-top: 0;
+}
+.footer .bt-footer .bt-container .bt-copyright .gwab {
+  position: relative;
+  padding-left: 25px;
+}
+.footer .bt-footer .bt-container .bt-copyright .gwab i {
+  background: url("https://res.suning.cn/public/v3/css/images/gwab-icon.png") no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+}
+.footer .bt-footer .bt-container .bt-authentication {
+  margin-top: 5px;
+}
+.footer .bt-footer .bt-container .bt-authentication a {
+  margin-right: 8px;
+}
+.float-bar {
+  margin-left: 615px;
+  position: fixed;
+  top: auto;
+  left: 50%;
+  z-index: 7700;
+  right: auto;
+  bottom: 0px;
+  margin-bottom: 20px;
+  display: none;
+}
+.float-bar ul {
+  width: 68px;
+  height: 202px;
+}
+.float-bar ul li {
+  position: relative;
+  width: 66px;
+  height: 66px;
+  margin-bottom: -1px;
+  border: 1px solid #eee;
+  font-size: 0;
+}
+.float-bar ul li a {
+  display: block;
+  width: 66px;
+  height: 66px;
+  background: #fff;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+.float-bar ul li a i {
+  display: block;
+  width: 26px;
+  margin: 15px auto 0;
+  background: url(https://res.suning.cn/project/cmsWeb/suning/fashion/css/images/fashion.png?v=93c77);
+}
+.float-bar ul li a .active {
+  display: none;
+  width: 34px;
+  height: 52px;
+  padding: 14px 16px 0;
+  color: #8d9eb6;
+  font: 14px/18px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+}
+.float-bar ul li a:hover {
+  color: #8d9eb6;
+  text-decoration: none;
+}
+.float-bar ul li a:hover .default {
+  display: none;
+}
+.float-bar ul li a:hover .active {
+  display: block;
+}
+.float-bar ul .outer1 .default i {
+  height: 25px;
+  background-position: -143px -244px;
+}
+.float-bar ul .outer1 .default b {
+  height: 22px;
+  color: #8d9eb6;
+  font: bold 14px/22px "Microsoft Yahei", tahoma, arial, "Hiragino Sans GB";
+  font-weight: normal;
+}
+.float-bar ul .outer2 i {
+  height: 35px;
+  background-position: -143px -206px;
+}
+@-webkit-keyframes shake-vertical {
+  15% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  30% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  70% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  85% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes shake-vertical {
+  15% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  30% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  50% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  70% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  85% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
